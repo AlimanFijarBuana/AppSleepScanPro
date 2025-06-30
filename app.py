@@ -361,7 +361,7 @@ if menu_option == "🌟 Prediction":
         
      with col2:
     # Pilih pekerjaan dari daftar pekerjaan yang telah disesuaikan
-       occupation = st.selectbox("Pekerjaan", [
+        occupation = st.selectbox("Pekerjaan", [
         'Software Engineer', 'Doctor', 'Sales Representative', 'Teacher', 'Nurse', 
         'Engineer', 'Accountant', 'Scientist', 'Lawyer', 'Manager', 'Others'
         ], help="Pekerjaan individu", key="occupation", index=0)  # Tambahkan index default
