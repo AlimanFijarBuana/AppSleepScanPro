@@ -1,29 +1,45 @@
-# 🌜 Sleep Disorder Detection App
+# 🌜 SleepScan Pro - Sleep Disorder Detection App
 
-![Preview Aplikasi](https://github.com/AlimanFijarBuana/SleepScanProApp/raw/main/Screenshot%202025-06-30%20091439.png)
+![App Preview](https://github.com/AlimanFijarBuana/SleepScanProApp/raw/main/Screenshot%202025-06-30%20091439.png)
 
-## Ringkasan
+## Overview
 
-Selamat datang di **Sleep Disorder Detection App!**  
-Aplikasi ini menggunakan model machine learning untuk mendeteksi potensi gangguan tidur berdasarkan fitur masukan seperti umur, jenis kelamin, pekerjaan, durasi tidur, dan lainnya. Aplikasi juga memberikan tips bermanfaat berdasarkan hasil prediksi.
+Welcome to **SleepScan Pro**, a machine learning-powered application that detects potential sleep disorders based on various input features like age, gender, occupation, sleep duration, and more. The app not only provides prediction results but also offers personalized sleep tips based on the assessment.
 
-### Fitur
-✅ Memprediksi potensi gangguan tidur: *No Disorder*, *Sleep Apnea*, *Insomnia*  
-✅ Memberikan tips tidur yang dipersonalisasi  
-✅ Menyediakan wawasan dan analisis data tidur  
-✅ Antarmuka interaktif dan mudah digunakan
+### Key Features
+- ✅ **Sleep disorder prediction**: Detects *No Disorder*, *Sleep Apnea*, or *Insomnia*  
+- ✅ **Personalized sleep recommendations**: Tailored advice based on your sleep profile  
+- ✅ **Interactive sleep data analysis**: Visual insights into your sleep patterns  
+- ✅ **User-friendly interface**: Built with Streamlit for seamless experience  
 
-## Memulai
+### Live Application
+- **Direct Access**: [SleepScan Pro - Streamlit App](https://sleepscanapp.streamlit.app/)
 
-### Prasyarat
+## Getting Started
 
-Pastikan sudah terpasang di sistem Anda:
-- Python 3.7 atau lebih baru
-- pip (Python package installer)
+### Prerequisites
 
-### Instalasi
+Ensure you have the following installed:
+- **Python 3.7+**
+- **pip** (Python package manager)
 
-1️⃣ **Clone repository:**
+### Installation
+
+1️⃣ **Clone the repository:**
 ```bash
 git clone https://github.com/AlimanFijarBuana/SleepScanProApp.git
 cd SleepScanProApp
+
+2️⃣ **Install dependencies:**
+```bash
+pip install -r requirements.txt
+
+3️⃣ **Run the Streamlit app locally:**
+```bash
+streamlit run app.py
+
+*How to Use*
+1. Upload your sleep data (CSV format) when prompted
+2. The app will process your data using our trained ML model
+3. View your sleep disorder prediction along with personalized recommendations
+4. Explore interactive visualizations of your sleep patterns
