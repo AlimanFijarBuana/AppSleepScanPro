@@ -356,15 +356,15 @@ if menu_option == "🌟 Prediction":
                        help="Usia individu dalam tahun")
         gender = st.selectbox("Gender", ["Male", "Female"], 
                              help="Jenis kelamin individu")
-        bmi_category = st.selectbox("Kategori BMI", ["Normal", "Overweight", "Obese"], 
-                                    help="Klasifikasi BMI individu")
         
     with col2:
-    # Pilih pekerjaan dari daftar pekerjaan yang telah disesuaikan
-       occupation = st.selectbox("Pekerjaan", [
-        'Software Engineer', 'Doctor', 'Sales Representative', 'Teacher', 'Nurse', 
-        'Engineer', 'Accountant', 'Scientist', 'Lawyer', 'Manager', 'Others'
-        ], help="Pekerjaan individu", key="occupation", index=0)  # Tambahkan index default
+        bmi_category = st.selectbox("Kategori BMI", ["Normal", "Overweight", "Obese"], 
+                                   help="Klasifikasi BMI individu")
+        occupation = st.selectbox("Pekerjaan", [
+            'Software Engineer', 'Doctor', 'Sales Representative', 
+            'Teacher', 'Nurse', 'Engineer', 'Accountant',
+            'Scientist', 'Lawyer', 'Manager', 'Others'
+        ], help="Pekerjaan individu", key="occupation")
 
 
     with tab2:
